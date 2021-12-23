@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CustomerApi</name>
+    </assembly>
+    <members>
+        <member name="M:CustomerApi.Controllers.CustomerController.GetAll(System.String)">
+            <summary>
+            Gets the list of all Customers or serach by First Name or Last Name.
+            </summary>
+            <returns>The list of Customers.</returns>
+        </member>
+        <member name="M:CustomerApi.Controllers.CustomerController.Add(CustomerApi.Models.Customer)">
+            <summary>
+            Add new customer.
+            </summary>
+            <returns>Customer ID</returns>
+        </member>
+        <member name="M:CustomerApi.Controllers.CustomerController.Delete(System.Int32)">
+            <summary>
+            Delete customer.
+            </summary>
+            <returns>Customer ID</returns>
+        </member>
+        <member name="M:CustomerApi.Controllers.CustomerController.Update(CustomerApi.Models.Customer)">
+            <summary>
+            Update Existing customer.
+            </summary>
+            <returns>Customer ID</returns>
+        </member>
+    </members>
+</doc>
